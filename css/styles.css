@@ -1,8 +1,8 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   background-color: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 a {
   text-decoration: none;
@@ -12,29 +12,35 @@ ul {
 }
 .link-logo {
   text-transform: uppercase;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.54px;
-  line-height: 116.667%;
+  line-height: 1.17;
 }
 .logo-text {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .nav-link {
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.32px;
 }
 .header-address-link {
+  font-style: normal;
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
 }
 .header-address-link:hover,
-.nav-link:hover {
+.nav-link:hover,
+.header-address-link:focus,
+.nav-link:focus {
   color: #404bbf;
 }
 .nav-link:active {
@@ -46,6 +52,8 @@ ul {
 }
 .hero-title {
   color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 107.143%;
@@ -60,7 +68,8 @@ ul {
   line-height: 150%;
   letter-spacing: 0.64px;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 .preference-subtitle {
@@ -78,8 +87,13 @@ ul {
 .team {
   background-color: #f4f4fd;
 }
+.team-list {
+  background-color: #fff;
+}
 .team-title,
 .portfolio-title {
+  text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
   line-height: 111.111%;
@@ -94,6 +108,7 @@ ul {
 }
 .team-paragraph,
 .portfolio-paragraph {
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
