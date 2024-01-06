@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   background-color: #fff;
   color: #434455;
 }
@@ -26,7 +25,7 @@ ul {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .header-address {
@@ -35,8 +34,7 @@ ul {
 .header-address-link {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .header-address-link:hover,
@@ -54,11 +52,10 @@ ul {
 }
 .hero-title {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 107.143%;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .hero-button {
@@ -67,7 +64,7 @@ ul {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.64px;
 }
 .hero-button:hover,
@@ -81,13 +78,12 @@ ul {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .preference-paragraph {
   font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .team {
@@ -103,7 +99,7 @@ ul {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 111.111%;
+  line-height: 1.11;
   letter-spacing: 0.72px;
 }
 .team-subtitle,
@@ -111,15 +107,13 @@ ul {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .team-paragraph,
 .portfolio-paragraph {
-  color: #434455;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .footer {
@@ -134,7 +128,6 @@ ul {
 .footer-paragraph {
   color: #f4f4fd;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
